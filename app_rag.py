@@ -11,8 +11,8 @@ EMBED_MODEL   = "text-embedding-3-large"
 CHAT_MODEL    = "gpt-4.1-nano-2025-04-14"
 TOP_K         = 4
 TEMPERATURE   = 0.1
-INDEX_PATH    = pathlib.Path("src/index/faiss.index")
-META_PATH     = pathlib.Path("src/index/meta.pkl")
+INDEX_PATH    = pathlib.Path("index/faiss.index")
+META_PATH     = pathlib.Path("index/meta.pkl")
 
 INDEX = faiss.read_index(str(INDEX_PATH))
 META  = pickle.load(META_PATH.open("rb"))
