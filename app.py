@@ -79,7 +79,7 @@ def display_messages():
 st.markdown("<h1 class='main-header'>TrueFoundry Documentation Assistant</h1>", unsafe_allow_html=True)
 
 with st.sidebar:
-    data_path = "src/data/data.json"
+    data_path = "data/data.json"
     
     model_choice = st.selectbox(
         "Gemini Model",
