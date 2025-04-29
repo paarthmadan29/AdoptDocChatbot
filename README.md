@@ -40,4 +40,4 @@ pip install streamlit fastapi uvicorn faiss-cpu openai tiktoken requests pydanti
 
 Make sure you have:
 - `OPENAI_API_KEY` set in your environment.
-- Prebuilt FAISS index and metadata under `src/index/`.
+- Prebuilt FAISS index and metadata under `index/`.
